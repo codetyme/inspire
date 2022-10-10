@@ -11,4 +11,5 @@ class Inspire {
         return $response['quote'] . ' -' . $response['author'];
     }
 }
+
 ?>
