@@ -1,4 +1,5 @@
 <?php
+
 namespace Codetyme\Inspire\Controllers;
 
 use Illuminate\Http\Request;
