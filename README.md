@@ -5,7 +5,7 @@ Laravel best quotes package.
 # Requirements
 
 <a href="https://www.php.net" target="_blank" rel="noreferrer">PHP:  ^7.3 or ^8.0</a><br />
-<a href="https://laravel.com/" target="_blank" rel="noreferrer">Laravel Framework</a> 
+<a href="https://laravel.com/" target="_blank" rel="noreferrer">Laravel Framework</a>
 <br /><br />
 
 # Quick Installation
@@ -22,9 +22,21 @@ Add the following line of code in that section:
 /*
  * Package Service Providers...
  */
- 
+
 Codetyme\Inspire\Providers\InspirationProvider::class,
-</pre> 
+</pre>
+<br />
+
+# How to use
+
+In your controller
+
+<pre>
+public static function Quotes(\Codetyme\Inspire\Inspire $inspire){
+    return $inspire->justQuote();
+}
+</pre>
+
 <br />
 
 # License

@@ -1,6 +1,12 @@
 {
     "name": "codetyme/inspire",
     "description": "Technology is best when it brings people together.",
+    "license": "MIT",
+    "keywords": [
+        "codetyme",
+        "inspiring",
+        "quotes"
+    ],
     "autoload": {
         "psr-4": {
             "Codetyme\\Inspire\\": "src/"
